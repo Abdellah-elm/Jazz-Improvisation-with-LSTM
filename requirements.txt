@@ -1,0 +1,15 @@
+# Core Machine Learning
+tensorflow>=2.4.0
+keras>=2.4.0
+numpy>=1.19.2
+
+# Music Processing
+music21==5.1.0
+
+# Data Visualization & Utilities
+matplotlib>=3.3.0
+h5py>=2.10.0
+IPython
+
+# Scripting & Environment
+protobuf==3.20.*
