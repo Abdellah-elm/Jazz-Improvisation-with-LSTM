@@ -1,8 +1,8 @@
-# 🎷 Jazz Solo Generation with LSTM Networks
+#  Jazz Solo Generation with LSTM Networks
 
 This project implements a sequence model based on **Long Short-Term Memory (LSTM)** networks to generate original jazz music. By learning the patterns, rhythms, and structures found in a dataset of jazz compositions, the model can "improvise" its own musical sequences.
 
-## 📌 Project Overview
+##  Project Overview
 
 Music is a sequence of values (notes, durations, and pitches) that follow specific temporal patterns. Standard Neural Networks fail to capture these dependencies, but **LSTMs** are specifically designed to remember information over long periods, making them ideal for music synthesis.
 
@@ -14,7 +14,7 @@ In this project, I built a model that:
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 The model utilizes the **Keras Functional API**, which allows for more complex structures than the Sequential API. This is particularly useful here because the model needs to share weights across different time steps during the generation phase.
 
@@ -27,7 +27,7 @@ The model utilizes the **Keras Functional API**, which allows for more complex s
 
 ---
 
-## 🎵 How Music is Generated
+##  How Music is Generated
 
 Unlike standard classification, music generation happens in a loop:
 
@@ -38,11 +38,11 @@ Unlike standard classification, music generation happens in a loop:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
-* Python 3.x
+* Python 3.14
 * TensorFlow / Keras
 * Music21 (for MIDI processing)
 * NumPy & Matplotlib
@@ -62,7 +62,7 @@ The model is trained on a dataset of jazz snippets formatted into values represe
 
 ---
 
-## 📊 Results
+##  Results
 
 After training for ~100 epochs, the model begins to transition from random noise to structured melodic patterns.
 
@@ -73,7 +73,7 @@ After training for ~100 epochs, the model begins to transition from random noise
 
 ---
 
-## 🎓 Acknowledgments
+##  Acknowledgments
 
 This project was completed as part of the **Deep Learning Specialization (Sequence Models)** by DeepLearning.AI on Coursera.
 
